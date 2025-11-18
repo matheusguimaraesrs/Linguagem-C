@@ -19,7 +19,7 @@ int main () {
     {
             printf ("Insira os dados do cliente %d \n", i+1);
             puts ("Nome: ");
-            scanf ("%50[^\n]s", &lista[i].nome);
+            scanf ("%s", &lista[i].nome);
             fflush (stdin);
 
             puts ("Idade: ");
